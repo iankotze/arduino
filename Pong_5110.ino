@@ -109,7 +109,7 @@ void setup()
   // init done
   display.setRotation(2);
   // you can change the contrast around to adapt the display
-  // for the best viewing!
+  // for the best viewing, you might have to change this depending on each and every screen.
   display.setContrast(50);
 
   display.display(); // show splashscreen
