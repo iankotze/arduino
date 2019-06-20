@@ -49,84 +49,62 @@ static const unsigned char PROGMEM logo16_glcd_bmp[] =
 
 //Screen Size Parameters
 
-
 // Ball velocities:
-
 
 // Ball position:                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ;
 
-
 // Paddle Parameters
-
 
 // Paddle positions:
 
-
 // Player scores
-
 
 // Put your setup code here, to run once:
 void setup()
 {
-
   //TASK 2
   // Define the pinMode for each button
 
-
   //Seed the random nr generator
 
-
   //Start the serial monitor
-
   
   //Initialize screen
-
   
   //change display rotation so it is upside down.
-
   
-  // you can change the contrast around to 
-  //adapt the display for the best viewing!
-
+  // you can change the contrast around to adapt the display 
+  // for the best viewing!
 
   // show splashscreen
-
    
   // clears the screen and buffer
   
-
   //Display Arduino Pong splashscreen
 
 }
 
-
 void loop() {
 
   //Set a delay on the loop, you can change this delay to slow down or speed up the game.
-
   
   // Update position of left paddle:
  
-
   // Update position of right paddle:
 
-
   // Check for ball hitting a wall:
-  
 
   // Check for ball bouncing off ceiling:
   
-
   // Update ball position:
-
+  
+  // Check for ball bouncing off paddles:
+  
+  // Draw pong elements to display:
   
   // Display scores
 
-  
   // Display all elements
-  
-
-  // Check for ball bouncing off paddles:
 
 }
 
